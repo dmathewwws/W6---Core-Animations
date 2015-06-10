@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF3A4FDE1B23EFCA00357F30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7055F01B23741300513E81 /* ViewController.m */; };
 		AF7055EB1B23741300513E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7055EA1B23741300513E81 /* main.m */; };
 		AF7055EE1B23741300513E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7055ED1B23741300513E81 /* AppDelegate.m */; };
-		AF7055F11B23741300513E81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7055F01B23741300513E81 /* ViewController.m */; };
 		AF7055F41B23741300513E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7055F21B23741300513E81 /* Main.storyboard */; };
 		AF7055F61B23741300513E81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7055F51B23741300513E81 /* Images.xcassets */; };
 		AF7055F91B23741300513E81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF7055F71B23741300513E81 /* LaunchScreen.xib */; };
@@ -168,6 +168,7 @@
 				TargetAttributes = {
 					AF7055E41B23741300513E81 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2VGL7CT34X;
 					};
 					AF7055FD1B23741300513E81 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -219,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF7055F11B23741300513E81 /* ViewController.m in Sources */,
+				AF3A4FDE1B23EFCA00357F30 /* ViewController.m in Sources */,
 				AF7055EE1B23741300513E81 /* AppDelegate.m in Sources */,
 				AF7055EB1B23741300513E81 /* main.m in Sources */,
 			);
@@ -347,9 +348,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "W6 - Bahamas Animations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +361,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "W6 - Bahamas Animations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -416,6 +423,7 @@
 				AF70560A1B23741300513E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF70560B1B23741300513E81 /* Build configuration list for PBXNativeTarget "W6 - Bahamas AnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +432,7 @@
 				AF70560D1B23741300513E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
